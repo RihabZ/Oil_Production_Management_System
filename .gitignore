@@ -1,0 +1,25 @@
+# ============================
+# 🧠 Projet Oil Production Management
+# ============================
+
+# --- Environnements virtuels et temporaires ---
+.env
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# --- Données ---
+data/raw/
+*.sqlite
+
+# ⚠️ Ignorer toutes les bases .db sauf la base principale SQLite
+*.db
+!data/oil_production.db
+
+# --- OS / IDE ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Anaconda / Environnement ---
+environment.yml
